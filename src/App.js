@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Button } from 'antd'
 import MainLayout from './components/MainLayout'
 
 import './App.css'
@@ -8,6 +9,7 @@ class App extends Component {
     return (
       <MainLayout>
         <div>Hello, Kitty! </div>
+        <Button type="primary">Click</Button>
       </MainLayout>
     )
   }
