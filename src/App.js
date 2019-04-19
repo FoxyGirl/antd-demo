@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <MainLayout>
-        <div>Hello</div>
+        <div>Hello, Kitty! </div>
       </MainLayout>
     )
   }
