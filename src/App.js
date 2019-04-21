@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Button } from 'antd'
+import { Button, Switch } from 'antd'
 import MainLayout from './components/MainLayout'
 
 import './App.css'
@@ -10,6 +10,7 @@ class App extends Component {
       <MainLayout>
         <div>Hello, Kitty! </div>
         <Button type="primary">Click</Button>
+        <Switch checked={true}/>
       </MainLayout>
     )
   }
