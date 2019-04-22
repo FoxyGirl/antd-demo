@@ -16,6 +16,7 @@ class MainLayout extends Component {
   }
 
   render() {
+    const {children} = this.props
     return (
       <Layout>
         <Sider trigger={null} collapsible collapsed={this.state.collapsed}>
@@ -47,7 +48,7 @@ class MainLayout extends Component {
               minHeight: 280,
             }}
           >
-            {this.children}
+            {children}
           </Content>
           <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
         </Layout>
